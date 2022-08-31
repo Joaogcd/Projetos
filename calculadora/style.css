@@ -26,7 +26,7 @@ div{
 
 #num{
     height: 50px;
-    width: 180px;
+    width: 182px;
     margin-bottom: 10px;
     font-size: 16pt;
     background-color: rgba(255, 255, 255, 0.76);
@@ -35,13 +35,22 @@ div{
 
 #c{
     width: 60px;
-    height: 50px;
+    height: 58px;
     margin-bottom: 10px;
+    margin-left: 2px;
     font-size: 16pt;
+    text-align: left;
 }
 
 .nummaincolor, .soma, .subt, .mult, .div, .igual{
     width: 60px;
     height: 50px;
     font-size: 12pt;
+}
+
+.backs{
+    width: 257px;
+    height: 50px;
+    font-size: 12pt;
+    margin-top: 5px;
 }
