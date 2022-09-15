@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+
+header{
+    background-image: url(../humanFlight/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+p > a{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 120px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sinop{
+    max-width: 800px;
+}
+
+.sec0{
+    text-align: center;
+    font-size: 20px;
+}
+
+.sec1{
+    background-image: url(../humanFlight/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10%;
+    
+}
+
+.sec2{
+    background-image: url(../humanFlight/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    align-items: center;   
+}
+
+.sec3{
+    background-image: url(../humanFlight/04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    margin-right: 15%;
+}
+
+.sec4{
+    background-image: url(../humanFlight/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.sec5{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.sec5 a{
+    font-size: 16px;
+}
+
+.titulo{
+    font-size: 60px;
+}
+
+.paragrafo{
+    font-size: 16px;
+}
+
+.cont{
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (max-width: 1024px){
+    .titulo{
+        font-size: 50px;
+    }
+    h1{
+        font-size: 90px;
+    }
+}
+@media (max-width: 768px){
+    h1{
+        font-size: 90px;
+    }
+    .sec1, .sec3{
+        margin-right: 5%;
+    }
+}
+@media (max-width: 665px){
+    h1{
+        font-size: 60px;
+    }
+    .subtitulo{
+        font-size: 22px;
+    }
+}
+@media (max-width: 425px){
+    h1{
+        font-size: 40px;
+    }
+    .subtitulo{
+        font-size: 16px;
+    }
+}
