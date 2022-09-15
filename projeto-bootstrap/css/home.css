@@ -86,20 +86,42 @@ footer a:hover{
     }
 }
 @media (max-width: 425px){
+    .aedit{
+        text-align: center;
+    }
     .paragrafo{
         font-size: 28px;
-        max-width: 380px;
+        max-width: 370px;
+    }
+
+    p, h2, button{
+        margin-left: 10px;
     }
 }
 @media (max-width: 375px){
+    a{
+        font-size: 10px;
+    }
     .paragrafo{
         font-size: 27px;
         max-width: 320px;
     }
+
+    button{
+        width: 150px;
+    }
 }
 @media (max-width: 320px){
+    footer > div{
+        font-size: 10px;
+    }
     .paragrafo{
         font-size: 26px;
         max-width: 320px;
+    }
+}
+@media (max-width: 301px){
+    footer > div, a{
+        font-size: 8px;
     }
 }
