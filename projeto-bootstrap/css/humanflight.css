@@ -1,19 +1,11 @@
 @charset "UTF-8";
 
-body{
-    background-color: black;
-}
-
 header{
     background-image: url(../humanFlight/01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
-}
-
-p > a{
-    font-size: 20px;
 }
 
 h1{
@@ -30,6 +22,10 @@ h1{
     max-width: 800px;
 }
 
+p > a{
+    font-size: 20px;
+}
+
 .sec0{
     text-align: center;
     font-size: 20px;
@@ -44,8 +40,7 @@ h1{
     display: grid;
     align-items: center;
     justify-content: right;
-    margin-right: 10%;
-    
+    margin-right: 10%;  
 }
 
 .sec2{
@@ -79,14 +74,6 @@ h1{
     display: grid;
     align-items: center;
 }
-.sec5{
-    height: 100vh;
-    display: grid;
-    align-items: center;
-}
-.sec5 a{
-    font-size: 16px;
-}
 
 .titulo{
     font-size: 60px;
@@ -94,11 +81,6 @@ h1{
 
 .paragrafo{
     font-size: 16px;
-}
-
-.cont{
-    font-size: 16px;
-    text-align: center;
 }
 
 @media (max-width: 1024px){

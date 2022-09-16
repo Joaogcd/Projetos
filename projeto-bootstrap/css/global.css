@@ -6,6 +6,10 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 a{
     text-decoration: none;
     font-size: 12px;
@@ -14,6 +18,21 @@ a{
 
 a:hover{
     color: white;
+}
+
+.sec5{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.sec5 a{
+    font-size: 16px;
+}
+
+.cont{
+    font-size: 16px;
+    text-align: center;
 }
 
 footer{
