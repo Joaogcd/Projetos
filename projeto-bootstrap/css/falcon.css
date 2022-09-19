@@ -11,20 +11,78 @@ header{
     height: 100vh;
 }
 
-h1{
-    font-size: 90px;
-    text-align: center;
+header p, header a, header h1{
+    font-weight: 600;
 }
 
-.subtitulo{
+h1{
+    font-size: 90px;
+    margin-top: 150px;
+}
+
+.subtitulo, .numbers p{
     font-size: 20px;
-    text-align: center;
+}
+
+.numbers {
+    height: 40vh;
+    max-width: 97vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 .paragrafo{
     font-size: 22px;
     max-width: 640px;
     line-height: 50px;
+}
+
+.carrossel01{
+    background-image: url(../falcon9/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carrossel02{
+    background-image: url(../falcon9/04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carrossel03{
+    background-image: url(../falcon9/05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carrossel04{
+    background-image: url(../falcon9/06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carrossel05{
+    background-image: url(../falcon9/07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#overViewPosition {
+    max-width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+}
+
+#merlin {
+    max-width: 500px;
+    margin-left: 13%;
 }
 
 .sec1{
@@ -47,11 +105,16 @@ h1{
     align-items: center;  
 }
 
-.descricao{
-    max-width: 475px;
-    text-align: left;
-}
-
 section p{
     font-size: 16px;
+}
+
+.fcar{
+    background-color: black;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.fcar p{
+    margin: 0;
 }
