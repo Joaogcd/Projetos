@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <title>Projeto Prático Guiado 1</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Calculadora</h1>
+  <main data-theme="dark">
+    <header class="flex align-center justify-between">
+      <h1>Calc.js</h1>
+      <button id="themeSwitcher">Switch Theme Dark/Light</button>
     </header>
-    <section>
-        <div class="main">
-            <form action="" name="calculator">
-                <input type="text" id="num" class="text maincolor" name="text1" placeholder="0" disabled>
-                <input type="reset" id="c" class="text maincolor" name="text12" value="C"><br>
-
-                <input type="button" class="nummaincolor" name="btn7" value="7" onclick="displaynum(btn7.value)">
-                <input type="button" class="nummaincolor" name="btn8" value="8" onclick="displaynum(btn8.value)"> 
-                <input type="button" class="nummaincolor" name="btn9" value="9" onclick="displaynum(btn9.value)">
-                <input type="button" class="soma" name="btnadd" value="+" onclick="displaynum(btnadd.value)"><br>
-                
-                <input type="button" class="nummaincolor" name="btn4" value="4" onclick="displaynum(btn4.value)">
-                <input type="button" class="nummaincolor" name="btn5" value="5" onclick="displaynum(btn5.value)">
-                <input type="button" class="nummaincolor" name="btn6" value="6" onclick="displaynum(btn6.value)">
-                <input type="button" class="subt" name="btnsub" value="-" onclick="displaynum(btnsub.value)"><br>
-                
-                <input type="button" class="nummaincolor" name="btn1" value="1" onclick="displaynum(btn1.value)">
-                <input type="button" class="nummaincolor" name="btn2" value="2" onclick="displaynum(btn2.value)">
-                <input type="button" class="nummaincolor" name="btn3" value="3" onclick="displaynum(btn3.value)">
-                <input type="button" class="mult" name="btnmult" value="*" onclick="displaynum(btnmult.value)"><br>
-
-                <input type="button" class="nummaincolor" name="btnponto" value="." onclick="displaynum(btnponto.value)">
-                <input type="button" class="nummaincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
-                <input type="button" class="igual" name="btnigual" value="=" onclick="text1.value=eval(text1.value)">
-                <input type="button" class="div" name="btndiv" value="/" onclick="displaynum(btndiv.value)"><br>
-
-                <input type="button" class="backs" name="btnbacks" value="Backspace" onclick="backspace()">
-            </form>
-        </div>
+    <input type="text" id="input">
+    <div id="keys">
+      <button id="clear">C</button>
+      <button class="charKey" data-value=" ( ">(</button>
+      <button class="charKey" data-value=" ) ">)</button>
+      <button class="charKey" data-value=" / ">/</button>
+      <button class="charKey" data-value="7">7</button>
+      <button class="charKey" data-value="8">8</button>
+      <button class="charKey" data-value="9">9</button>
+      <button class="charKey" data-value=" * ">*</button>
+      <button class="charKey" data-value="4">4</button>
+      <button class="charKey" data-value="5">5</button>
+      <button class="charKey" data-value="6">6</button>
+      <button class="charKey" data-value=" - ">-</button>
+      <button class="charKey" data-value="1">1</button>
+      <button class="charKey" data-value="2">2</button>
+      <button class="charKey" data-value="3">3</button>
+      <button class="charKey" data-value=" + ">+</button>
+      <button class="charKey" data-value="0">0</button>
+      <button class="charKey" data-value=".">.</button>
+      <button class="charKey" data-value=" % ">mod</button>
+      <button id="equal">=</button>
+    </div>
+    <section class="flex align-center justify-between">
+      <button id="copyToClipboard">Copy</button>
+      <input type="text" id="result" disabled>
     </section>
-    <footer>
-        
-    </footer>
-    <script src="script.js"></script>
+  </main>
 </body>
 </html>
