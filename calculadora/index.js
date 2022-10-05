@@ -72,3 +72,4 @@ document.getElementById('themeSwitcher').addEventListener('click', function(){
         main.dataset.theme = 'dark'
     }
 })
+
