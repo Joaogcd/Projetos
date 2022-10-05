@@ -47,12 +47,12 @@ function calculate(){
 
 document.getElementById('copyToClipboard').addEventListener('click', function(ev){
     const button = ev.currentTarget
-    if (button.innerText === 'Copy'){
-        button.innerText = 'Copied'
+    if (button.innerText === 'Copiar'){
+        button.innerText = 'Copiado'
         button.classList.add('success')
         navigator.clipboard.writeText(resultInput.value)
     } else{
-        button.innerText = 'Copy'
+        button.innerText = 'Copiar'
         button.classList.remove('success')
     }
 })
@@ -62,13 +62,13 @@ document.getElementById('themeSwitcher').addEventListener('click', function(){
         root.style.setProperty('--bg-color', '#f1f5f9')
         root.style.setProperty('--border-color', '#aaa')
         root.style.setProperty('--font-color', '#212529')
-        root.style.setProperty('--primary-color', '#26834a')
+        root.style.setProperty('--primary-color', '#146F99')
         main.dataset.theme = 'light'
     } else{
         root.style.setProperty('--bg-color', '#212529')
         root.style.setProperty('--border-color', '#666')
         root.style.setProperty('--font-color', '#f1f5f9')
-        root.style.setProperty('--primary-color', '#4dff91')
+        root.style.setProperty('--primary-color', '#5BAED5')
         main.dataset.theme = 'dark'
     }
 })
